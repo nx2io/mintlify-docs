@@ -68,16 +68,6 @@
           "lang": "javascript",
           "label": "List all unwatered plants",
           "source": "const planter = require('planter');\nplanter.list({ unwatered: true });"
-        },
-        {
-          "lang": "bash",
-          "label": "List all potted plants",
-          "source": "planter list -p"
-        },
-        {
-          "lang": "javascript",
-          "label": "List all potted plants",
-          "source": "const planter = require('planter');\nplanter.list({ potted: true });"
         }
       ]
       },
